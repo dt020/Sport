@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Domein Sport 020" id="466b1e76" version="3.1.1">
+  <folder name="Business" id="c16ff329" type="business">
+    <folder name="Taken en verantwoordelijkheden" id="0a2cb7b1">
+      <element xsi:type="archimate:BusinessFunction" id="c46c6510" name="Relatiemanagement"/>
+      <element xsi:type="archimate:BusinessFunction" id="7d1d387c" name="Exploitatie accomodaties"/>
+      <element xsi:type="archimate:BusinessFunction" id="ce4fe732" name="Sportstimulering"/>
+      <element xsi:type="archimate:BusinessFunction" id="4f00a930" name="Exploitatie zwembaden"/>
+      <element xsi:type="archimate:BusinessFunction" id="d3911682" name="Beleidsvorming"/>
+      <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Loket"/>
+      <element xsi:type="archimate:BusinessFunction" id="31480f06" name="Beheer en onderhoud Amsterdamse Bos"/>
+    </folder>
+    <folder name="Actoren" id="d1fd8ebb">
+      <folder name="Teams en afdelingen" id="af00326f">
+        <element xsi:type="archimate:BusinessActor" id="dd96bf12" name="Cluster Sociaal"/>
+        <element xsi:type="archimate:BusinessActor" id="93b91023" name="Sport en Bos"/>
+        <element xsi:type="archimate:BusinessActor" id="55373191" name="Sportpunt">
+          <documentation>Volgens http://intranet.amsterdam.nl/medewerkers-sport/sport-bos/: &quot;Eén gemeentelijk sportloket voor klanten, partners en stakeholders. Het Sportpunt is een spil en vliegwiel in het functioneren van de sportorganisatie en heeft nauwe banden met alle sportrelaties in de stad. Een belangrijk speerpunt voor het Sportpunt is de informatievoorziening over alle sportactiviteiten in Amsterdam.&quot;</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessActor" id="cf82b4c0" name="Sporthallen en -parken">
+          <documentation>Volgens http://intranet.amsterdam.nl/medewerkers-sport/sport-bos/: &quot;De afdeling Sporthallen en -parken is verantwoordelijk voor een maximale exploitatie van de accommodaties en zorgt dat de accommodaties voldoen aan de normen van de sportbonden en keuringsinstanties. Een belangrijk speerpunt voor deze afdeling is om de dienstverlening in de komende jaren naar een hoger plan te tillen en nog meer tegemoet te komen aan de wensen van de sportende Amsterdammer.&quot;</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessActor" id="6c381a4f" name="Zwembaden">
+          <documentation>Volgens http://intranet.amsterdam.nl/medewerkers-sport/sport-bos/: &quot;De afdeling Zwembaden is verantwoordelijk voor hoogstaande kwaliteit, met accent op duurzaamheid en gastheerschap. Speerpunten voor de komende periode zijn de ontwikkeling van een visie op zwembadbeheer, de exploitatie voor Amsterdam, en het uitbreiden van zwemmogelijkheden voor mensen met een beperking.&quot;</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessActor" id="f2afe958" name="Sportstimulering">
+          <documentation>Volgens http://intranet.amsterdam.nl/medewerkers-sport/sport-bos/: &quot;Afdeling Sportstimulering is in samenwerking met sportstimulering bij de stadsdelen, verantwoordelijk voor het opzetten van stadsbrede sportinitiatieven en -activiteiten om alle Amsterdammers in beweging te brengen. Sportstimuleringsprogramma’s zoals Primair Onderwijs, Evenementen, Aangepast Sporten, Schoolzwemmen, Sportaanbieders, Veilig Sportklimaat en Topscore hebben een plek binnen deze afdeling.&quot;</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessActor" id="bdc17018" name="Sportbeleid en -ontwikkeling">
+          <documentation>Volgens http://intranet.amsterdam.nl/medewerkers-sport/sport-bos/: &quot;De afdeling Sportbeleid en –ontwikkeling is verantwoordelijk voor het opstellen van de beleidskaders en daarmee onder meer voor het Sportplan met een duidelijke visie op sport en bewegen in Amsterdam. Dat bestrijkt het hele scala van Topsport, Sportparticipatie, Sportaccommodaties en Evenementen. Naast de directe afstemming met wethouder, College, en gemeenteraad, onderhoudt deze afdeling goede contacten met alle stakeholders om sport op alle niveaus te laten floreren in de stad. Naast de meest in het oog springende aandacht voor grote sportevenementen, liggen de accenten de komende tijd op de investeringen in sportaccommodaties, het gebruik van de openbare ruimte, en de ontwikkeling van urban sports.&quot;</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessActor" id="7e28f3f4" name="Amsterdamse Bos">
+          <documentation>Volgens http://intranet.amsterdam.nl/medewerkers-sport/sport-bos/: &quot;De afdeling is verantwoordelijk voor het integrale beheer en onderhoud van het Amsterdamse Bos. Dat is het groen, de natuurgebieden, het weg- en straatmeubilair, de watergangen, de Bosbaan, het Sportpark, de gebouwen, en de machines en voertuigen. Daarnaast houdt deze afdeling zich bezig met taken als toezicht, handhaving, informatievoorziening, voorlichting, excursies, educatie, workshops, coördinatie en begeleiding van evenementen en festivals. Daarnaast is het onderdeel Boswerk verantwoordelijk voor de leer- en werkplekken in het Bos. Ook onder het Amsterdamse Bos vallen de boswachterij, de boswinkel en het evenementenbureau.&quot;</documentation>
+        </element>
+      </folder>
+      <element xsi:type="archimate:BusinessActor" id="aef9cef4" name="Gemeente Amsterdam"/>
+    </folder>
+    <folder name="Bedrijfsobjecten" id="5ad4206b"/>
+    <folder name="Events" id="c99ee1c5"/>
+    <folder name="Processen" id="66fc563c"/>
+    <folder name="Rollen" id="2de30568"/>
+  </folder>
+  <folder name="Application" id="5512ee01" type="application"/>
+  <folder name="Technology" id="c016c1c3" type="technology"/>
+  <folder name="Motivation" id="081b355f" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="c8a02d5d" type="implementation_migration"/>
+  <folder name="Connectors" id="fd9cbd1c" type="connectors"/>
+  <folder name="Relations" id="4c6524b9" type="relations">
+    <element xsi:type="archimate:AggregationRelationship" id="1e20caf7" source="aef9cef4" target="dd96bf12"/>
+    <element xsi:type="archimate:AggregationRelationship" id="ce6e3784" source="dd96bf12" target="93b91023"/>
+    <element xsi:type="archimate:AggregationRelationship" id="dbb448c5" source="93b91023" target="7e28f3f4"/>
+    <element xsi:type="archimate:AggregationRelationship" id="9160b757" source="93b91023" target="bdc17018"/>
+    <element xsi:type="archimate:AggregationRelationship" id="77491d6b" source="93b91023" target="cf82b4c0"/>
+    <element xsi:type="archimate:AggregationRelationship" id="2bc11187" source="93b91023" target="55373191"/>
+    <element xsi:type="archimate:AggregationRelationship" id="45a8a154" source="93b91023" target="f2afe958"/>
+    <element xsi:type="archimate:AggregationRelationship" id="4fb54183" source="93b91023" target="6c381a4f"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="88890f09" source="bdc17018" target="d3911682"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="483051f9" source="cf82b4c0" target="7d1d387c"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="6e361a09" source="55373191" target="6bd93bd4"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="ff755295" source="f2afe958" target="ce4fe732"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="dbb2309f" source="6c381a4f" target="4f00a930"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="be645f32" source="7e28f3f4" target="31480f06"/>
+  </folder>
+  <folder name="Views" id="1e8b7158" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="3c30a180" name="Default View">
+      <child xsi:type="archimate:DiagramObject" id="57a473c6" textAlignment="2" archimateElement="aef9cef4">
+        <bounds x="12" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4173f3b8" source="57a473c6" target="d8a874ff" relationship="1e20caf7"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d8a874ff" textAlignment="2" targetConnections="4173f3b8" archimateElement="dd96bf12">
+        <bounds x="168" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="14f8483d" source="d8a874ff" target="353f3f28" relationship="ce6e3784"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="353f3f28" textAlignment="2" targetConnections="14f8483d" archimateElement="93b91023">
+        <bounds x="324" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dd56e385" source="353f3f28" target="749a8524" relationship="dbb448c5"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a189b34f" source="353f3f28" target="0dcac490" relationship="9160b757">
+          <bendpoint startX="48" startY="69" endX="-108" endY="-3"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="3b921972" source="353f3f28" target="26159bfb" relationship="77491d6b">
+          <bendpoint startX="24" startY="141" endX="-132" endY="-3"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="912524ca" source="353f3f28" target="8bd28d0c" relationship="2bc11187">
+          <bendpoint startY="213" endX="-156" endY="-3"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="4748caa9" source="353f3f28" target="764e3b4c" relationship="45a8a154">
+          <bendpoint startX="-24" startY="285" endX="-180" endY="-3"/>
+        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="91845ebf" source="353f3f28" target="9f07149f" relationship="4fb54183">
+          <bendpoint startX="-48" startY="357" endX="-204" endY="-3"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="749a8524" textAlignment="2" targetConnections="dd56e385" archimateElement="7e28f3f4">
+        <bounds x="480" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8b3410dc" source="749a8524" target="5fea9acc" relationship="be645f32"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0dcac490" textAlignment="2" targetConnections="a189b34f" archimateElement="bdc17018">
+        <bounds x="480" y="84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f6a05ee6" source="0dcac490" target="acef01d8" relationship="88890f09"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="26159bfb" textAlignment="2" targetConnections="3b921972" archimateElement="cf82b4c0">
+        <bounds x="480" y="156" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="95c18045" source="26159bfb" target="9679af91" relationship="483051f9"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8bd28d0c" textAlignment="2" targetConnections="912524ca" archimateElement="55373191">
+        <bounds x="480" y="228" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dc74ea42" source="8bd28d0c" target="8a57efdd" relationship="6e361a09"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="764e3b4c" textAlignment="2" targetConnections="4748caa9" archimateElement="f2afe958">
+        <bounds x="480" y="300" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e56b531b" source="764e3b4c" target="df870b4a" relationship="ff755295"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9f07149f" textAlignment="2" targetConnections="91845ebf" archimateElement="6c381a4f">
+        <bounds x="480" y="372" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8d063fc8" source="9f07149f" target="3171a282" relationship="dbb2309f"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="acef01d8" textAlignment="2" targetConnections="f6a05ee6" archimateElement="d3911682">
+        <bounds x="648" y="84" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9679af91" textAlignment="2" targetConnections="95c18045" archimateElement="7d1d387c">
+        <bounds x="648" y="156" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3171a282" textAlignment="2" targetConnections="8d063fc8" archimateElement="4f00a930">
+        <bounds x="648" y="372" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="df870b4a" textAlignment="2" targetConnections="e56b531b" archimateElement="ce4fe732">
+        <bounds x="648" y="300" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8a57efdd" textAlignment="2" targetConnections="dc74ea42" archimateElement="6bd93bd4">
+        <bounds x="648" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5fea9acc" textAlignment="2" targetConnections="8b3410dc" archimateElement="31480f06">
+        <bounds x="648" y="12" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
