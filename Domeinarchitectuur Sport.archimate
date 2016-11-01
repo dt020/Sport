@@ -9,6 +9,7 @@
       <element xsi:type="archimate:BusinessFunction" id="d3911682" name="Beleidsvorming"/>
       <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Loket"/>
       <element xsi:type="archimate:BusinessFunction" id="31480f06" name="Beheer en onderhoud Amsterdamse Bos"/>
+      <element xsi:type="archimate:BusinessFunction" id="ce1647b2" name="Verhuur sportaccomodaties"/>
     </folder>
     <folder name="Actoren" id="d1fd8ebb">
       <folder name="Teams en afdelingen" id="af00326f">
@@ -34,13 +35,61 @@
         </element>
       </folder>
       <element xsi:type="archimate:BusinessActor" id="aef9cef4" name="Gemeente Amsterdam"/>
+      <element xsi:type="archimate:BusinessActor" id="dc013d23" name="Reade"/>
+      <element xsi:type="archimate:BusinessActor" id="efade83a" name="Stichting Prisma"/>
+      <element xsi:type="archimate:BusinessActor" id="2537e645" name="Stichting Sport &amp; Behaviour"/>
+      <element xsi:type="archimate:BusinessActor" id="a2f96cea" name="Only Friends">
+        <documentation>Sportvereniging Only Friends in Noord</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="85fd7289" name="Ministerie van VWS"/>
+      <element xsi:type="archimate:BusinessActor" id="097ae3a2" name="Compudienst / LVP">
+        <documentation>Leverancier van het AMIS systeem voor de verhuur.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="ea2a2363" name="Gisib BV">
+        <documentation>Leverancier van het systeem Gisib.&#xD;
+&#xD;
+Volgens http://www.gisib.nl/contact/gisib-bv: &quot;Gisib BV is een coproductie van de bedrijven KOAC-NPC en de DG Groep, twee toonaangevende specialisten in het beheer van de buitenruimte. De expertises van KOAC-NPC en de DG Groep zijn complementair en bestrijken alle gebieden van het beheer van de openbare ruimte: kwalitetisborging, inspectie, schouwen en  het beheer vaan o.a. wegen, terreinen, speelplaatsen, kunstwerken, riolering en verlichting. Al die kennis komt samen in gisib.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="56bbc7c5" name="KOAC-NPC">
+        <documentation>KOAC-NPC is samen met de DP-Groep moederbedrijf van Gisib BV.&#xD;
+&#xD;
+Volgens http://www.koac-npc.com: &quot;KOAC•NPC is dé zakelijke dienstverlener met onderzoeksfaciliteiten en deskundigheid op een breed gebied van de mobiliteitsinfrastructuur. Wij werken voor en met alle partijen die actief zijn op het gebied van wegen, vliegvelden, bedrijfsterreinen en dijkbekledingen.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="0dfe8aa0" name="DG Groep">
+        <documentation>DG Groep is samen met de KOAC-NPC moederbedrijf van Gisib BV.&#xD;
+&#xD;
+Volgens https://dggroep.nl/: &quot;De adviseurs van de DG Groep vormen een middelgroot adviesbureau voor de openbare ruimte. Kwaliteit, creativiteit en betaalbaarheid staan voorop. Wij vinden het belangrijk dat de buitenruimte mooi en functioneel is en blijft. Wij zijn uw partner voor alle aspecten van de inrichting en het beheer van de buitenruimte. Samen met u werken wij aan een totaalpakket voor een optimale inrichting van de buitenruimte. Wij leveren daarbij specialistische kennis van geografische informatiesystemen en groen.&quot;</documentation>
+      </element>
     </folder>
     <folder name="Bedrijfsobjecten" id="5ad4206b"/>
     <folder name="Events" id="c99ee1c5"/>
     <folder name="Processen" id="66fc563c"/>
-    <folder name="Rollen" id="2de30568"/>
+    <folder name="Rollen" id="2de30568">
+      <element xsi:type="archimate:BusinessRole" id="60923e32" name="Buurtsportcoach"/>
+      <element xsi:type="archimate:BusinessRole" id="157af446" name="Combinatiefunctionaris"/>
+    </folder>
   </folder>
-  <folder name="Application" id="5512ee01" type="application"/>
+  <folder name="Application" id="5512ee01" type="application">
+    <element xsi:type="archimate:ApplicationComponent" id="5c7f02e6" name="sportindebuurt.nl"/>
+    <element xsi:type="archimate:ApplicationComponent" id="2b28bf4e" name="combinatiefuncties.nl"/>
+    <element xsi:type="archimate:ApplicationComponent" id="bded4fbe" name="amsterdam.nl/sport"/>
+    <element xsi:type="archimate:ApplicationComponent" id="83e31c95" name="Online reserveringsysteem">
+      <documentation>https://asp3.lvp.nl/amisweb/amsterdam/amis/amis.php</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="dcc328b0" name="kaart.amsterdam.nl">
+      <documentation>Sportverenigingen en sportvoorzieningen kun je op de kaart zien via https://kaart.amsterdam.nl/#accordion-sport-en-vrije-tijd</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="87b8c39c" name="Gisib">
+      <documentation>Volgens http://www.gisib.nl/over-gisib: &quot;Een GIS-georiënteerde applicatie, waarmee u het integrale beheer van de buitenruimte kunt ondersteunen en vormgeven&quot;</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="e85a2b4d" name="Gezondheid in Beeld">
+      <documentation>Te vinden op https://www.ggdgezondheidinbeeld.nl/.&#xD;
+&#xD;
+Voorbeeld van beleidsinformatie gepresenteerd op een manier zoals ze dat bij afdeling Sport ook graag mbt hun domein tot hun beschikking zouden willen hebben.&#xD;
+&#xD;
+Volgens http://www.ggd.amsterdam.nl/beleid-onderzoek/gezondheidsmonitors/gezondheid-beeld-0/: &quot;Gezondheid in Beeld is een makkelijk toegankelijke en interactieve website die inzicht geeft in de gezondheid, het welzijn, de leefstijl en de leefomgeving van de Amsterdammers. Gezondheid in Beeld bevat gegevens van de diverse monitorstudies die binnen de GGD Amsterdam plaatsvinden. Voor uw gemak is de informatie opgedeeld in drie thema’s: jeugd, volwassenen en kwetsbare groepen. Uniek is dat u zelf bepaalt welke informatie u graag wilt zien. U kiest een informatiebron en een onderwerp en alle informatie wordt op het scherm getoond in de vorm van tabellen, kaarten, taartgrafieken, histogrammen en lijndiagrammen.&quot;</documentation>
+    </element>
+  </folder>
   <folder name="Technology" id="c016c1c3" type="technology"/>
   <folder name="Motivation" id="081b355f" type="motivation"/>
   <folder name="Implementation &amp; Migration" id="c8a02d5d" type="implementation_migration"/>
