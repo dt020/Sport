@@ -7,7 +7,7 @@
       <element xsi:type="archimate:BusinessFunction" id="ce4fe732" name="Sportstimulering"/>
       <element xsi:type="archimate:BusinessFunction" id="4f00a930" name="Exploitatie zwembaden"/>
       <element xsi:type="archimate:BusinessFunction" id="d3911682" name="Beleidsvorming"/>
-      <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Loket"/>
+      <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Verhuurloket"/>
       <element xsi:type="archimate:BusinessFunction" id="31480f06" name="Beheer en onderhoud Amsterdamse Bos"/>
       <element xsi:type="archimate:BusinessFunction" id="ce1647b2" name="Verhuur sportaccomodaties"/>
     </folder>
@@ -60,6 +60,8 @@ Volgens http://www.koac-npc.com: &quot;KOAC•NPC is dé zakelijke dienstverlene
 &#xD;
 Volgens https://dggroep.nl/: &quot;De adviseurs van de DG Groep vormen een middelgroot adviesbureau voor de openbare ruimte. Kwaliteit, creativiteit en betaalbaarheid staan voorop. Wij vinden het belangrijk dat de buitenruimte mooi en functioneel is en blijft. Wij zijn uw partner voor alle aspecten van de inrichting en het beheer van de buitenruimte. Samen met u werken wij aan een totaalpakket voor een optimale inrichting van de buitenruimte. Wij leveren daarbij specialistische kennis van geografische informatiesystemen en groen.&quot;</documentation>
       </element>
+      <element xsi:type="archimate:BusinessActor" id="39d1fd9e" name="Cruyff Foundation"/>
+      <element xsi:type="archimate:BusinessActor" id="8aeff85f" name="Krajicek Foundation"/>
     </folder>
     <folder name="Bedrijfsobjecten" id="5ad4206b"/>
     <folder name="Events" id="c99ee1c5"/>
@@ -88,6 +90,16 @@ Volgens https://dggroep.nl/: &quot;De adviseurs van de DG Groep vormen een midde
 Voorbeeld van beleidsinformatie gepresenteerd op een manier zoals ze dat bij afdeling Sport ook graag mbt hun domein tot hun beschikking zouden willen hebben.&#xD;
 &#xD;
 Volgens http://www.ggd.amsterdam.nl/beleid-onderzoek/gezondheidsmonitors/gezondheid-beeld-0/: &quot;Gezondheid in Beeld is een makkelijk toegankelijke en interactieve website die inzicht geeft in de gezondheid, het welzijn, de leefstijl en de leefomgeving van de Amsterdammers. Gezondheid in Beeld bevat gegevens van de diverse monitorstudies die binnen de GGD Amsterdam plaatsvinden. Voor uw gemak is de informatie opgedeeld in drie thema’s: jeugd, volwassenen en kwetsbare groepen. Uniek is dat u zelf bepaalt welke informatie u graag wilt zien. U kiest een informatiebron en een onderwerp en alle informatie wordt op het scherm getoond in de vorm van tabellen, kaarten, taartgrafieken, histogrammen en lijndiagrammen.&quot;</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="683b85fc" name="Website Aanbod in West">
+      <documentation>Zie https://www.amsterdam.nl/sport/sportactiviteiten-0/sporten-kinderen/aanbod-west/</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="2224b91e" name="Website Aanbod Naschoolse Activiteiten Amsterdam">
+      <documentation>Zie https://www.naschoolseactiviteiten-amsterdam.nl/</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="c023f64a" name="Website datapunt.amsterdam.nl/subsidies/">
+      <documentation>Zie https://datapunt.amsterdam.nl/subsidies/. Filter op thema Sport of op organisatie Sport en Bos.&#xD;
+</documentation>
     </element>
   </folder>
   <folder name="Technology" id="c016c1c3" type="technology"/>
