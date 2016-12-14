@@ -67,7 +67,9 @@ Sportstimulering is een unieke, ondernemende organisatie, die werkt in opdracht 
       </element>
       <element xsi:type="archimate:BusinessFunction" id="4f00a930" name="Exploitatie zwembaden"/>
       <element xsi:type="archimate:BusinessFunction" id="d3911682" name="Beleidsvorming"/>
-      <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Verhuurloket"/>
+      <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Verhuur">
+        <documentation>Verhuur van sporthallen, gymzalen, materialen, en tzt ook velden en parken.</documentation>
+      </element>
       <element xsi:type="archimate:BusinessFunction" id="31480f06" name="Beheer en onderhoud Amsterdamse Bos"/>
       <element xsi:type="archimate:BusinessFunction" id="ce1647b2" name="Verhuur sportaccomodaties"/>
       <element xsi:type="archimate:BusinessFunction" id="ea07af3e" name="Sporten, recreëren en bewegen, Sportparticipatie"/>
@@ -119,6 +121,7 @@ Sportstimulering is een unieke, ondernemende organisatie, die werkt in opdracht 
         <element xsi:type="archimate:BusinessActor" id="70a76265" name="Subsidies"/>
         <element xsi:type="archimate:BusinessActor" id="12b9625a" name="Onderwijs"/>
         <element xsi:type="archimate:BusinessActor" id="91d1eb3c" name="GGD"/>
+        <element xsi:type="archimate:BusinessActor" id="8ace7c9a" name="Gebiedspool"/>
       </folder>
       <folder name="Aanbieders" id="e1f39089">
         <element xsi:type="archimate:BusinessActor" id="740fe530" name="Sciandri"/>
@@ -519,7 +522,7 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
     <element xsi:type="archimate:AssignmentRelationship" id="b1de9330" source="8892d586" target="b337716f"/>
     <element xsi:type="archimate:AssignmentRelationship" id="e1168e37" source="8892d586" target="4e41192c"/>
     <element xsi:type="archimate:AggregationRelationship" id="026bbcdc" source="aef9cef4" target="e3c44e6e"/>
-    <element xsi:type="archimate:AggregationRelationship" id="12826588" source="e3c44e6e" target="d3c37aee"/>
+    <element xsi:type="archimate:AggregationRelationship" id="12826588" source="e3c44e6e" target="8ace7c9a"/>
     <element xsi:type="archimate:AssignmentRelationship" id="b9333ec0" source="d3c37aee" target="744cdbf4"/>
     <element xsi:type="archimate:AssignmentRelationship" id="de05fa3e" source="8892d586" target="744cdbf4"/>
     <element xsi:type="archimate:AssociationRelationship" id="5a0940a5" source="42432741" target="87ed53a8"/>
@@ -659,14 +662,17 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
       </child>
       <child xsi:type="archimate:DiagramObject" id="a17821bf" textAlignment="2" targetConnections="2022b8a6" archimateElement="e3c44e6e">
         <bounds x="12" y="456" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="23f4dd8c" source="a17821bf" target="ea6b80b8" relationship="12826588"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="ea6b80b8" textAlignment="2" targetConnections="23f4dd8c" archimateElement="d3c37aee">
-        <bounds x="480" y="456" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="d70407a1" source="ea6b80b8" target="bc0c4d70" relationship="b9333ec0"/>
+        <sourceConnection xsi:type="archimate:Connection" id="23f4dd8c" source="a17821bf" target="2d37ee91" relationship="12826588"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="bc0c4d70" textAlignment="2" targetConnections="a40052ee d70407a1" archimateElement="744cdbf4">
         <bounds x="648" y="456" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2d37ee91" textAlignment="2" targetConnections="23f4dd8c" archimateElement="8ace7c9a">
+        <bounds x="456" y="444" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ea6b80b8" textAlignment="2" archimateElement="d3c37aee">
+        <bounds x="493" y="468" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d70407a1" source="ea6b80b8" target="bc0c4d70" relationship="b9333ec0"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="ed50d700" name="Doelstructuur met Kernregistratie">
