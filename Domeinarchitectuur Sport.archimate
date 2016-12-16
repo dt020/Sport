@@ -390,6 +390,11 @@ Volgens https://www.kennisbanksportenbewegen.nl/?file=3748&amp;m=1422883381&amp;
       <element xsi:type="archimate:ApplicationComponent" id="fb476d86" name="Salto">
         <documentation>Er is een applicatie Salto voor sleutelbeheer in gebruik (relatie met AMIS)</documentation>
       </element>
+      <element xsi:type="archimate:ApplicationComponent" id="811eda44" name="LISA">
+        <documentation>Volgens https://www.lisa-is.nl/?option=4: &quot;een geintegreerd ledeninformatiesysteem voor sportverenigingen en -bonden. Alle relevante informatie wordt via eenvoudige webbased software ontsloten naar mobiele applicaties, websites, narrowcasting en push/sms-messaging. Met LISA maakt de vereniging en/of de bond een grote slag in efficiency en creeert zij een uniek informatie- en communicatieplatform voor haar doelgroepen, inclusief sponsoren. &quot;&#xD;
+&#xD;
+Volgens https://www.lisa-is.nl/?option=3: &quot;LISA biedt een uitgebreide ledenadministratie, met allerlei mogelijkheden om grip en inzicht te krijgen in uw vereniging. De ledenadministrateur gaat met LISA heel veel tijd besparen, niet alleen omdat hij/zij verlost is van het doorsturen van allerlei gevraagde excels maar ook omdat alle inschrijvingen digitaal binnenkomen via de website van de vereniging. Hij/zij is vervolgens een poortwachter: pas na akkoord van de ledenadministratie wordt een lid als het ware 'toegelaten' in het systeem. De uitwisseling met de bond gaat automatisch.&quot;</documentation>
+      </element>
     </folder>
     <folder name="Koppelvlakken" id="c5312030">
       <element xsi:type="archimate:ApplicationService" id="88086122" name="Sportaanbod service"/>
