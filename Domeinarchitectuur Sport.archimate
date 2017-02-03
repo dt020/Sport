@@ -12,10 +12,56 @@
         <element xsi:type="archimate:BusinessFunction" id="ee76dbba" name="Opdrachtgeverschap aan Sciandri"/>
         <element xsi:type="archimate:BusinessFunction" id="94300580" name="Sportstimulering in Oost"/>
         <element xsi:type="archimate:BusinessFunction" id="fadec291" name="Toeleiding naar JSF"/>
-        <element xsi:type="archimate:BusinessFunction" id="7c19cdf9" name="Subsidiëring buurtsportcoaches"/>
-        <element xsi:type="archimate:BusinessFunction" id="60cd55c2" name="Sportstimulering in West"/>
+        <element xsi:type="archimate:BusinessFunction" id="7c19cdf9" name="Subsidiëring"/>
+        <element xsi:type="archimate:BusinessFunction" id="60cd55c2" name="Sportstimulering in West">
+          <documentation>Interview 20161115 met Urjan van Dienst (Afdelingsmanager Sport van afdeling Sport en Recreatie van Stadsdeel West)&#xD;
+&#xD;
+In West is het motto &quot;West Beweegt!&quot;.&#xD;
+Dat uit zich in een proactieve instelling richting kwetsbare groepen.&#xD;
+Sport enerzijds als doel maar anderzijds ook als middel bij allerlei andere doelstellingen (vanuit AAGG, OOV, participatie, betrokkenheid, ...)&#xD;
+Verschillende 'vindplekken' voor de verschillende doelgroepen: in het onderwijs, op speelplekken en pleintjes, ...&#xD;
+Afhankelijk van doelgroep en doelstellingen zijn er verschillende activiteiten.&#xD;
+Deels ingericht middels subsidiëring (Combiwel (89K), MBVO (66K), ...)&#xD;
+In samenwerking met combinatiefunctionarissen, Streetcornerwork, Jongerenwerk, Cruyff Foundation, Krajicek Foundation, ROC, Randstad, ...&#xD;
+Maar ook eigen beweegactiviteiten, gebiedsgericht&#xD;
+Verslaglegging door CF'ers over&#xD;
+&#xD;
+	* Wie doet er aan mee&#xD;
+	* Wie zijn er niet&#xD;
+	* Wat speelt er in de groep&#xD;
+	* Wat zijn de behoeftes&#xD;
+&#xD;
+&quot;Ken de namen&quot;&#xD;
+Signalering naar de scholen toe&#xD;
+Jongerensportcoach traject&#xD;
+Wordt gefinancierd.&#xD;
+Cursus Leider Sportieve Recreatie&#xD;
+Oa gericht op de Top 1000&#xD;
+Rolmodellen zoeken, en ambassadeurs&#xD;
+Hoe verloopt de communicatie? Via Whatsapp, in ieder geval met de jongeren zelf.&#xD;
+Er is wel een soort volgsysteem mbv scorekaarten, met competenties en eventueel diploma's&#xD;
+Er is ook de mogelijkheid voor het invullen van een taakstraf bij de speeltuinen.&#xD;
+Er wordt iets bedacht voor de 'vergeten' doelgroep 25+&#xD;
+Voor ouderen gebeurt wel al het nodige: Wandelclubjes, Gezond koken, ...&#xD;
+Decos? Ja voor klachtenbrieven.&#xD;
+In West zijn er Buurt Praktijk Teams, zie https://www.amsterdam.nl/bestuur-organisatie/bestuurscommissies/bestuurscommissie/buurt-praktijk-team/&#xD;
+&#xD;
+Registratie gebeurt voornamelijk in Excel&#xD;
+&#xD;
+	* Activiteiten: waar, wanneer, door wie georganiseerd&#xD;
+	* Speeltuinen&#xD;
+	* Speelplekken&#xD;
+	* Sportaanbieders (uptodate houden door 2-jaarlijkse enquete)&#xD;
+&#xD;
+De website van het stadsdeel had het voorheen goed op orde.&#xD;
+De website evenementen.amsterdam.nl is te omslachtig&#xD;
+&#xD;
+Relatiemanagement met de sportaanbieders moet ook goed ondersteund worden.</documentation>
+        </element>
         <element xsi:type="archimate:BusinessFunction" id="67382a07" name="Sportstimulering in Nieuw-West"/>
         <element xsi:type="archimate:BusinessFunction" id="a8b8dd8d" name="Sportstimulering in Zuid"/>
+        <element xsi:type="archimate:BusinessFunction" id="0c29c001" name="Gebiedsgerichte beweegactiviteiten"/>
+        <element xsi:type="archimate:BusinessFunction" id="a85444e9" name="Rolmodellen en ambassadeurs zoeken"/>
       </folder>
       <folder name="Programma's" id="fae677d9">
         <element xsi:type="archimate:BusinessFunction" id="d7522b18" name="Programma Topscore">
@@ -89,6 +135,9 @@ Sportstimulering is een unieke, ondernemende organisatie, die werkt in opdracht 
       <element xsi:type="archimate:BusinessFunction" id="74998a60" name="Gastheerschap">
         <documentation>Volgens Sportvisie 2025: &quot;Doordat de vaste gebruikers in de nieuwe systematiek huurders worden, komt het gastheerschap op onze accommodaties bij de gemeente te liggen. Amsterdam ontwikkelt actief gastheerschap op gemeentelijke accommodaties. Sportmedewerkers facilitair beheer en dienstverlening volgen een hospitality training.&quot;</documentation>
       </element>
+      <element xsi:type="archimate:BusinessFunction" id="1b57b74c" name="Asset Management">
+        <documentation>Verantwoordelijkheid van en belegd bij rve Verkeer en Openbare Ruimte.</documentation>
+      </element>
     </folder>
     <folder name="Actoren" id="d1fd8ebb">
       <folder name="Teams en afdelingen" id="af00326f">
@@ -122,6 +171,10 @@ Sportstimulering is een unieke, ondernemende organisatie, die werkt in opdracht 
         <element xsi:type="archimate:BusinessActor" id="12b9625a" name="Onderwijs"/>
         <element xsi:type="archimate:BusinessActor" id="91d1eb3c" name="GGD"/>
         <element xsi:type="archimate:BusinessActor" id="8ace7c9a" name="Gebiedspool"/>
+        <element xsi:type="archimate:BusinessActor" id="40f1dca8" name="Verkeer en Openbare Ruimte">
+          <documentation>Rve Verkeer en Openbare Ruimte is verantwoordelijk voor beheer, onderhoud, exploitatie en optimaal gebruik van de openbare ruimte, waaronder de sportparken. Zij hebben daarvoor een team Assetmanagement. Ze werken met het systeem Gisib waarin oa bodemkaarten zitten.</documentation>
+        </element>
+        <element xsi:type="archimate:BusinessActor" id="3360d6b4" name="Assetmanagement"/>
       </folder>
       <folder name="Aanbieders" id="e1f39089">
         <element xsi:type="archimate:BusinessActor" id="740fe530" name="Sciandri"/>
@@ -134,6 +187,7 @@ Sportstimulering is een unieke, ondernemende organisatie, die werkt in opdracht 
 &#xD;
 Ook &quot;Meer Bewegen voor Ouderen is een zelfstandig onderdeel van cordaan Thuiszorg&quot;</documentation>
         </element>
+        <element xsi:type="archimate:BusinessActor" id="7c842828" name="Combiwel"/>
       </folder>
       <element xsi:type="archimate:BusinessActor" id="aef9cef4" name="Gemeente Amsterdam"/>
       <element xsi:type="archimate:BusinessActor" id="dc013d23" name="Reade"/>
@@ -180,6 +234,8 @@ De NSA zet zich in voor een sport- beweeg- en leefomgeving waarin je je veilig v
 Volgens http://www.gisib.nl/contact/gisib-bv: &quot;Gisib BV is een coproductie van de bedrijven KOAC-NPC en de DG Groep, twee toonaangevende specialisten in het beheer van de buitenruimte. De expertises van KOAC-NPC en de DG Groep zijn complementair en bestrijken alle gebieden van het beheer van de openbare ruimte: kwalitetisborging, inspectie, schouwen en  het beheer vaan o.a. wegen, terreinen, speelplaatsen, kunstwerken, riolering en verlichting. Al die kennis komt samen in gisib.&quot;</documentation>
       </element>
       <element xsi:type="archimate:BusinessActor" id="4f41002d" name="Multitask ICT"/>
+      <element xsi:type="archimate:BusinessActor" id="c72f7f3f" name="Streetcornerwork, Jongerenwerk, Cruyff Foundation, Krajicek Foundation, ROC, Randstad"/>
+      <element xsi:type="archimate:BusinessActor" id="7463abe7" name="Buurt Praktijk Teams"/>
     </folder>
     <folder name="Bedrijfsobjecten" id="5ad4206b"/>
     <folder name="Events" id="c99ee1c5"/>
@@ -292,6 +348,16 @@ Alle aanmeldingen komen via trainers bij het stadsdeel terecht, per buurtsportve
 &#xD;
 Volgens https://www.jeugdsportfonds.nl/fonds/amsterdam/#info: &quot;Het Jeugdsportfonds Amsterdam geeft sportkansen aan kinderen en jongeren uit gezinnen waar niet genoeg geld is om lid te worden van een sportvereniging. Voor die kinderen betaalt Jeugdsportfonds de contributie en in bepaalde gevallen de sportattributen tot een maximum van € 225 per kind. Het kan zijn dat een gemeente eigen spelregels heeft, u kunt die vanaf onze homepage downloaden.  Zijn er meerdere kinderen in het gezin die iets aan sport willen doen? Dat mag!&quot;</documentation>
       </element>
+      <element xsi:type="archimate:BusinessService" id="a1b372db" name="Overzicht wachtlijsten">
+        <documentation>Wens van Norbert Krijnen 20161215: &quot;Graag ook een overzicht van wachtlijsten, bijvoorbeeld voor hockey. En inzicht in (aantallen) mensen die voor alle hockeyclubs hebben ingeschreven.&quot;&#xD;
+&#xD;
+Zie bijvoorbeeld  http://www.parool.nl/binnenland/hockey-in-amsterdam-barst-uit-zijn-voegen~a3630404/&#xD;
+</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessService" id="818f862c" name="Overzicht Staat van beheer en onderhoud">
+        <documentation>Wens van Norbert Krijnen 20161215: &quot;En graag een overzicht met per park en hal  de staat van beheer en onderhoud.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessService" id="54d8e256" name="Bodemkaarten"/>
     </folder>
   </folder>
   <folder name="Application" id="5512ee01" type="application">
@@ -303,6 +369,8 @@ Volgens https://www.jeugdsportfonds.nl/fonds/amsterdam/#info: &quot;Het Jeugdspo
       <element xsi:type="archimate:ApplicationFunction" id="441db3eb" name="Activiteiten administratie"/>
       <element xsi:type="archimate:ApplicationFunction" id="24e74b74" name="Verhuur administratie"/>
       <element xsi:type="archimate:ApplicationFunction" id="4e41192c" name="Relatie administratie"/>
+      <element xsi:type="archimate:ApplicationFunction" id="ced221a8" name="Overzicht afgelaste velden"/>
+      <element xsi:type="archimate:ApplicationFunction" id="406e7c93" name="Online reserveren"/>
     </folder>
     <folder name="Systemen en applicaties" id="8ec28d35">
       <element xsi:type="archimate:ApplicationComponent" id="bded4fbe" name="amsterdam.nl/sport"/>
@@ -315,7 +383,9 @@ Voorbeeld van beleidsinformatie gepresenteerd op een manier zoals ze dat bij afd
 Volgens http://www.ggd.amsterdam.nl/beleid-onderzoek/gezondheidsmonitors/gezondheid-beeld-0/: &quot;Gezondheid in Beeld is een makkelijk toegankelijke en interactieve website die inzicht geeft in de gezondheid, het welzijn, de leefstijl en de leefomgeving van de Amsterdammers. Gezondheid in Beeld bevat gegevens van de diverse monitorstudies die binnen de GGD Amsterdam plaatsvinden. Voor uw gemak is de informatie opgedeeld in drie thema’s: jeugd, volwassenen en kwetsbare groepen. Uniek is dat u zelf bepaalt welke informatie u graag wilt zien. U kiest een informatiebron en een onderwerp en alle informatie wordt op het scherm getoond in de vorm van tabellen, kaarten, taartgrafieken, histogrammen en lijndiagrammen.&quot;</documentation>
       </element>
       <element xsi:type="archimate:ApplicationComponent" id="87b8c39c" name="Gisib">
-        <documentation>Volgens http://www.gisib.nl/over-gisib: &quot;Een GIS-georiënteerde applicatie, waarmee u het integrale beheer van de buitenruimte kunt ondersteunen en vormgeven&quot;</documentation>
+        <documentation>Volgens http://www.gisib.nl/over-gisib: &quot;Een GIS-georiënteerde applicatie, waarmee u het integrale beheer van de buitenruimte kunt ondersteunen en vormgeven&quot;&#xD;
+&#xD;
+En volgens http://intranet.amsterdam.nl/verkeer-en-openbare/afdelingen-verkeer/gisib/ : &quot;Gisib is een integraal beheersysteem voor de openbare ruimte&quot;</documentation>
       </element>
       <element xsi:type="archimate:ApplicationComponent" id="dcc328b0" name="kaart.amsterdam.nl">
         <documentation>Sportverenigingen en sportvoorzieningen kun je op de kaart zien via https://kaart.amsterdam.nl/#accordion-sport-en-vrije-tijd</documentation>
@@ -377,7 +447,9 @@ en &quot;Stadsdeel Oost biedt het programma kiesjesport-amsterdam.nl aan. Indivi
 &#xD;
 </documentation>
       </element>
-      <element xsi:type="archimate:ApplicationComponent" id="62a9138c" name="Website sportparkenamsterdamoost.nl"/>
+      <element xsi:type="archimate:ApplicationComponent" id="62a9138c" name="Website sportparkenamsterdamoost.nl">
+        <documentation>Website gemaakt met Drupal. Door wie???</documentation>
+      </element>
       <element xsi:type="archimate:ApplicationComponent" id="e7427601" name="BAG"/>
       <element xsi:type="archimate:ApplicationComponent" id="58e553f6" name="NHR"/>
       <element xsi:type="archimate:ApplicationComponent" id="f1277440" name="Jump-in">
@@ -395,6 +467,9 @@ Volgens https://www.kennisbanksportenbewegen.nl/?file=3748&amp;m=1422883381&amp;
         <documentation>Volgens https://www.lisa-is.nl/?option=4: &quot;een geintegreerd ledeninformatiesysteem voor sportverenigingen en -bonden. Alle relevante informatie wordt via eenvoudige webbased software ontsloten naar mobiele applicaties, websites, narrowcasting en push/sms-messaging. Met LISA maakt de vereniging en/of de bond een grote slag in efficiency en creeert zij een uniek informatie- en communicatieplatform voor haar doelgroepen, inclusief sponsoren. &quot;&#xD;
 &#xD;
 Volgens https://www.lisa-is.nl/?option=3: &quot;LISA biedt een uitgebreide ledenadministratie, met allerlei mogelijkheden om grip en inzicht te krijgen in uw vereniging. De ledenadministrateur gaat met LISA heel veel tijd besparen, niet alleen omdat hij/zij verlost is van het doorsturen van allerlei gevraagde excels maar ook omdat alle inschrijvingen digitaal binnenkomen via de website van de vereniging. Hij/zij is vervolgens een poortwachter: pas na akkoord van de ledenadministratie wordt een lid als het ware 'toegelaten' in het systeem. De uitwisseling met de bond gaat automatisch.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:ApplicationComponent" id="6df8470c" name="Website westbeweegt.nl">
+        <documentation>Redirect naar amsterdam.nl/sport</documentation>
       </element>
     </folder>
     <folder name="Koppelvlakken" id="c5312030">
@@ -594,6 +669,21 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
     <element xsi:type="archimate:UsedByRelationship" id="3b622415" source="58e553f6" target="2ded7305"/>
     <element xsi:type="archimate:AssociationRelationship" id="64d1a157" source="4f41002d" target="263c6671"/>
     <element xsi:type="archimate:AssociationRelationship" id="ff07baa9" source="097ae3a2" target="51d4ef3d"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="905e3903" source="62a9138c" target="ced221a8"/>
+    <element xsi:type="archimate:AggregationRelationship" id="3f0d3789" source="40f1dca8" target="3360d6b4"/>
+    <element xsi:type="archimate:UsedByRelationship" id="bf88a439" source="87b8c39c" target="1b57b74c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="ec142a25" source="d35f373e" target="87b8c39c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="8b2f95fd" source="7e9a4135" target="51d4ef3d"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="de2fbd2d" source="7e9a4135" target="406e7c93"/>
+    <element xsi:type="archimate:UsedByRelationship" id="dc4627c2" source="406e7c93" target="f483699f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="3b0708a8" source="ced221a8" target="f483699f"/>
+    <element xsi:type="archimate:AggregationRelationship" id="92a0f036" source="60cd55c2" target="0c29c001"/>
+    <element xsi:type="archimate:AggregationRelationship" id="ff6bc553" source="60cd55c2" target="a85444e9"/>
+    <element xsi:type="archimate:AggregationRelationship" id="5a35161f" source="60cd55c2" target="7c19cdf9"/>
+    <element xsi:type="archimate:UsedByRelationship" id="0c9eda25" source="7c19cdf9" target="7c842828"/>
+    <element xsi:type="archimate:UsedByRelationship" id="8a00d522" source="f01f554c" target="a85444e9"/>
+    <element xsi:type="archimate:UsedByRelationship" id="aa706801" source="157af446" target="0c29c001"/>
+    <element xsi:type="archimate:AssociationRelationship" id="eed1fe84" source="7463abe7" target="157af446"/>
   </folder>
   <folder name="Views" id="1e8b7158" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="3c30a180" name="Gemeentelijke organisatie">
@@ -885,6 +975,9 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
       <child xsi:type="archimate:DiagramObject" id="dcf2e658" textAlignment="2" archimateElement="58e553f6">
         <bounds x="636" y="636" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="dcb0bc0c" source="dcf2e658" target="a8b3f363" relationship="3b622415"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="08cd284f" textAlignment="2" archimateElement="40f1dca8">
+        <bounds x="1140" y="444" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="df91618c" name="Huidige structuur">
@@ -1181,12 +1274,48 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
       </child>
       <child xsi:type="archimate:DiagramObject" id="26c26caf" textAlignment="2" targetConnections="390f784d" archimateElement="60cd55c2">
         <bounds x="444" y="552" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="53eaace0" source="26c26caf" target="52321cec" relationship="92a0f036"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a61a9ed3" source="26c26caf" target="9f4f0113" relationship="ff6bc553"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4cdeec15" source="26c26caf" target="3e083420" relationship="5a35161f">
+          <bendpoint startY="141" endX="-156" endY="-3"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="104763ae" textAlignment="2" targetConnections="a698d452" archimateElement="67382a07">
-        <bounds x="444" y="624" width="120" height="55"/>
+        <bounds x="456" y="768" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="47b9ab75" textAlignment="2" targetConnections="21544289" archimateElement="a8b8dd8d">
-        <bounds x="444" y="696" width="120" height="55"/>
+        <bounds x="456" y="840" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c12e8589" textAlignment="2" archimateElement="f01f554c">
+        <bounds x="780" y="624" width="145" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7804d7df" source="c12e8589" target="9f4f0113" relationship="8a00d522"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="52321cec" textAlignment="2" targetConnections="53eaace0 f5a92ab1" archimateElement="0c29c001">
+        <bounds x="600" y="552" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3e083420" textAlignment="2" targetConnections="4cdeec15" archimateElement="7c19cdf9">
+        <bounds x="600" y="696" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="463f9f92" source="3e083420" target="c2537d6c" relationship="0c9eda25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9f4f0113" textAlignment="2" targetConnections="a61a9ed3 7804d7df" archimateElement="a85444e9">
+        <bounds x="600" y="624" width="145" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c2537d6c" textAlignment="2" targetConnections="463f9f92" archimateElement="7c842828">
+        <bounds x="780" y="696" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="14eb5507" textAlignment="2" archimateElement="c4342617">
+        <bounds x="793" y="720" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="08aa713f" textAlignment="2" targetConnections="8ac5f7e3" archimateElement="157af446">
+        <bounds x="780" y="552" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f5a92ab1" source="08aa713f" target="52321cec" relationship="aa706801"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="9fbbc893" textAlignment="2" archimateElement="7463abe7">
+        <bounds x="912" y="552" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8ac5f7e3" source="9fbbc893" target="08aa713f" relationship="eed1fe84"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7ba8de0e" textAlignment="2" archimateElement="c72f7f3f">
+        <bounds x="936" y="588" width="217" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="66831090" name="Ketenpartners">
@@ -1274,6 +1403,13 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
       </child>
       <child xsi:type="archimate:DiagramObject" id="3fd94562" textAlignment="2" archimateElement="5c97855b">
         <bounds x="540" y="276" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="25511b50" textAlignment="2" archimateElement="40f1dca8">
+        <bounds x="228" y="276" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7999aa65" source="25511b50" target="58d47e3f" relationship="3f0d3789"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="58d47e3f" textAlignment="2" targetConnections="7999aa65" archimateElement="3360d6b4">
+        <bounds x="228" y="348" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="26cd0d30" name="Informatiemodel">
@@ -1548,18 +1684,49 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="e4ae8426" name="Applicatielandschap">
       <child xsi:type="archimate:DiagramObject" id="519c12d7" textAlignment="2" targetConnections="db5bc82e" archimateElement="263c6671">
-        <bounds x="268" y="173" width="120" height="55"/>
+        <bounds x="312" y="156" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="a1756ca0" textAlignment="2" archimateElement="4f41002d">
-        <bounds x="456" y="173" width="120" height="55"/>
+        <bounds x="468" y="156" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="db5bc82e" source="a1756ca0" target="519c12d7" relationship="64d1a157"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="49905f2c" textAlignment="2" archimateElement="097ae3a2">
-        <bounds x="456" y="84" width="120" height="55"/>
+        <bounds x="468" y="84" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="788edd44" source="49905f2c" target="5514db6f" relationship="ff07baa9"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="5514db6f" textAlignment="2" targetConnections="788edd44" archimateElement="51d4ef3d">
-        <bounds x="268" y="84" width="120" height="55"/>
+      <child xsi:type="archimate:DiagramObject" id="5514db6f" textAlignment="2" targetConnections="788edd44 68bb4633" archimateElement="51d4ef3d">
+        <bounds x="312" y="84" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f309ce0f" textAlignment="2" archimateElement="62a9138c">
+        <bounds x="156" y="156" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="bdbee2f7" source="f309ce0f" target="d6695f37" relationship="905e3903"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d6695f37" textAlignment="2" targetConnections="bdbee2f7" archimateElement="ced221a8">
+        <bounds x="156" y="84" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="de2a4be9" source="d6695f37" target="0de3d3a6" relationship="3b0708a8"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4789b893" textAlignment="2" targetConnections="9dc269dd" archimateElement="87b8c39c">
+        <bounds x="312" y="228" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ce43614d" source="4789b893" target="7ac548ea" relationship="bf88a439"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7ac548ea" textAlignment="2" targetConnections="ce43614d" archimateElement="1b57b74c">
+        <bounds x="156" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4f1ad698" textAlignment="2" archimateElement="d35f373e">
+        <bounds x="468" y="228" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9dc269dd" source="4f1ad698" target="4789b893" relationship="ec142a25"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d1c34864" textAlignment="2" archimateElement="7e9a4135">
+        <bounds x="312" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="68bb4633" source="d1c34864" target="5514db6f" relationship="8b2f95fd"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d329866e" source="d1c34864" target="0f82e54f" relationship="de2fbd2d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0f82e54f" textAlignment="2" targetConnections="d329866e" archimateElement="406e7c93">
+        <bounds x="156" y="12" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="6e6111e7" source="0f82e54f" target="0de3d3a6" relationship="dc4627c2"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="0de3d3a6" textAlignment="2" targetConnections="6e6111e7 de2a4be9" archimateElement="f483699f">
+        <bounds x="12" y="12" width="120" height="55"/>
       </child>
     </element>
   </folder>
