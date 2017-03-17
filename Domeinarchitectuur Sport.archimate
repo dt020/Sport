@@ -1978,7 +1978,7 @@ Versie 20170207</content>
         </sourceConnection>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="f0912f1e" name="Verhuur gymzalen + IV, doelsituatie">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="f0912f1e" name="Periodieke Verhuur, Proces + IV, doelsituatie">
       <child xsi:type="archimate:DiagramObject" id="6508d061" textAlignment="2" archimateElement="e078e658">
         <bounds x="90" y="84" width="120" height="55"/>
       </child>
