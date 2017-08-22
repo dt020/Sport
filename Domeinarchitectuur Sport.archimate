@@ -104,7 +104,7 @@ Zie ook https://www.facebook.com/Topscore020. Kennelijk al gestart in 1998?&#xD;
       <element xsi:type="archimate:BusinessFunction" id="7d1d387c" name="Beheer en onderhoud accommodaties">
         <documentation>Volgens de Sportvisie 2025: &quot;In 2016 is de verantwoordelijkheid voor alle gemeentelijke sportaccommodaties overgeheveld naar de centrale sportorganisatie Sport en Bos. Het sportvastgoed wordt per 2017 ondergebracht bij Gemeentelijk Vastgoed en het beheer en onderhoud van sportterreinen is onderdeel van Sport en Bos ...  Het beheer en onderhoud (instandhoudingsplannen) van bestaande en nieuw te realiseren sportaccommodaties wordt structureel in de gemeentelijke begroting opgenomen.&quot;</documentation>
       </element>
-      <element xsi:type="archimate:BusinessFunction" id="ce4fe732" name="Sportstimulering">
+      <element xsi:type="archimate:BusinessFunction" id="ce4fe732" name="Sportstimule-ring">
         <documentation>Volgens https://www.amsterdam.nl/sport/sportstimulering/: &quot;Sportstimulering draagt zorg voor de uitvoering van het Amsterdamse sportbeleid. Centraal staat de sportvereniging, maar er wordt ook gewerkt voor en met andere organisaties.&#xD;
 &#xD;
 Vanuit de gezonde sportvereniging werkt Sportstimulering aan een toegankelijke sportomgeving voor alle Amsterdammers, waarbij iedereen het aanbod kan vinden dat bij hem/haar past en met veel plezier de sport kan beleven.&#xD;
@@ -115,13 +115,13 @@ Sportstimulering is een unieke, ondernemende organisatie, die werkt in opdracht 
       </element>
       <element xsi:type="archimate:BusinessFunction" id="4f00a930" name="Exploitatie zwembaden"/>
       <element xsi:type="archimate:BusinessFunction" id="d3911682" name="Beleidsvorming"/>
-      <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Verhuur sportaccomodaties">
+      <element xsi:type="archimate:BusinessFunction" id="6bd93bd4" name="Verhuur sportaccomo-daties">
         <documentation>Verhuur van sporthallen, gymzalen, materialen, en tzt ook velden en parken.</documentation>
       </element>
       <element xsi:type="archimate:BusinessFunction" id="31480f06" name="Beheer en onderhoud Amsterdamse Bos"/>
       <element xsi:type="archimate:BusinessFunction" id="ea07af3e" name="Sporten, recreëren en bewegen, Sportparticipatie"/>
       <element xsi:type="archimate:BusinessFunction" id="e76cdf6a" name="Organisatie van vereniging en sportaanbod"/>
-      <element xsi:type="archimate:BusinessFunction" id="744cdbf4" name="Lokale sportstimulering"/>
+      <element xsi:type="archimate:BusinessFunction" id="744cdbf4" name="Lokale sportstimule-ring"/>
       <element xsi:type="archimate:BusinessFunction" id="c70a2bc6" name="Gebiedsontwikkeling">
         <documentation>Verantwoordelijkheid van Cluster Ruimte en Economie, rve Grond en Ontwikkeling. Maar ook van belang voor Sport, want volgens de Sportvisie: &quot;We zetten om die reden planologisch en stedenbouwkundig in op:&#xD;
 §§ De uitbreiding van binnensportfaciliteiten en kleinschalige multifunctionele buitensport gekoppeld aan scholen en wijkvoorzieningen (campusmodel, voorbeeld sportpark Zeeburgereiland).&#xD;
@@ -981,10 +981,10 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
       </child>
       <child xsi:type="archimate:DiagramObject" id="8bd28d0c" textAlignment="2" targetConnections="912524ca" archimateElement="55373191">
         <bounds x="480" y="300" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="dc74ea42" source="8bd28d0c" target="8a57efdd" relationship="6e361a09"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e59f5362" source="8bd28d0c" target="52d4ab0b" relationship="dc013fb6"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="764e3b4c" textAlignment="2" targetConnections="4748caa9" archimateElement="f2afe958">
-        <bounds x="480" y="372" width="120" height="55"/>
+        <bounds x="480" y="396" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="e56b531b" source="764e3b4c" target="df870b4a" relationship="ff755295"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="9f07149f" textAlignment="2" targetConnections="91845ebf" archimateElement="6c381a4f">
@@ -992,7 +992,7 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
         <sourceConnection xsi:type="archimate:Connection" id="8d063fc8" source="9f07149f" target="3171a282" relationship="dbb2309f"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="acef01d8" textAlignment="2" targetConnections="f6a05ee6" archimateElement="d3911682">
-        <bounds x="648" y="84" width="120" height="55"/>
+        <bounds x="648" y="84" width="132" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="9679af91" textAlignment="2" targetConnections="95c18045" archimateElement="7d1d387c">
         <bounds x="648" y="156" width="133" height="55"/>
@@ -1001,28 +1001,31 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
         <bounds x="648" y="228" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="df870b4a" textAlignment="2" targetConnections="e56b531b" archimateElement="ce4fe732">
-        <bounds x="648" y="372" width="120" height="55"/>
+        <bounds x="648" y="396" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="a40052ee" source="df870b4a" target="bc0c4d70" relationship="fbcf35ed"/>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="8a57efdd" textAlignment="2" targetConnections="dc74ea42" archimateElement="6bd93bd4">
-        <bounds x="648" y="300" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="5fea9acc" textAlignment="2" targetConnections="8b3410dc" archimateElement="31480f06">
         <bounds x="648" y="12" width="145" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="a17821bf" textAlignment="2" targetConnections="2022b8a6" archimateElement="e3c44e6e">
-        <bounds x="12" y="456" width="120" height="55"/>
+        <bounds x="12" y="480" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="23f4dd8c" source="a17821bf" target="2d37ee91" relationship="12826588"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="bc0c4d70" textAlignment="2" targetConnections="a40052ee d70407a1" archimateElement="744cdbf4">
-        <bounds x="648" y="456" width="120" height="55"/>
+        <bounds x="648" y="480" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="2d37ee91" textAlignment="2" targetConnections="23f4dd8c" archimateElement="8ace7c9a">
-        <bounds x="456" y="444" width="120" height="55"/>
+        <bounds x="456" y="468" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="ea6b80b8" textAlignment="2" archimateElement="d3c37aee">
-        <bounds x="493" y="468" width="120" height="55"/>
+        <bounds x="493" y="492" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="d70407a1" source="ea6b80b8" target="bc0c4d70" relationship="b9333ec0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="52d4ab0b" textAlignment="2" targetConnections="e59f5362" archimateElement="d0449536">
+        <bounds x="648" y="300" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8a57efdd" textAlignment="2" archimateElement="6bd93bd4">
+        <bounds x="660" y="324" width="121" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="ed50d700" name="Doelstructuur met Kernregistratie">
