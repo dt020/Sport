@@ -614,15 +614,19 @@ Volgens https://www.lisa-is.nl/?option=3: &quot;LISA biedt een uitgebreide leden
         <documentation>Genoemd op 16-02-2017 door Jan als ook een bron van info over sporthallen???</documentation>
       </element>
       <element xsi:type="archimate:ApplicationComponent" id="62a85890" name="Verhuursysteem"/>
-      <element xsi:type="archimate:ApplicationComponent" id="2a501e36" name="Document Management System"/>
+      <element xsi:type="archimate:ApplicationComponent" id="2a501e36" name="Document management system"/>
       <element xsi:type="archimate:ApplicationComponent" id="5c8e138a" name="Eigen taakapplicatie"/>
       <element xsi:type="archimate:ApplicationComponent" id="709166f8" name="Datapunt"/>
+      <element xsi:type="archimate:ApplicationComponent" id="0cefc7c5" name="Active Directory"/>
+      <element xsi:type="archimate:ApplicationComponent" id="c34864e8" name="Exchange"/>
     </folder>
     <folder name="Koppelvlakken" id="c5312030">
       <element xsi:type="archimate:ApplicationService" id="88086122" name="Sportaanbod service"/>
       <element xsi:type="archimate:ApplicationService" id="bc69be52" name="Accommodaties service"/>
       <element xsi:type="archimate:ApplicationService" id="afbad5bd" name="Sportparticipatie service"/>
       <element xsi:type="archimate:ApplicationService" id="6310b41f" name="Verenigingen service"/>
+      <element xsi:type="archimate:ApplicationService" id="725db390" name="Authenticatie"/>
+      <element xsi:type="archimate:ApplicationService" id="c53f5ab0" name="Document opslag"/>
     </folder>
     <folder name="Informatiemodel" id="d38c50ba">
       <element xsi:type="archimate:DataObject" id="9d969f5d" name="Sportaanbieder">
@@ -685,6 +689,7 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
     </folder>
     <element xsi:type="archimate:ApplicationService" id="c15a5be4" name="Document upload / show"/>
     <element xsi:type="archimate:ApplicationComponent" id="65ad8e8f" name="Exchange / Outlook"/>
+    <element xsi:type="archimate:ApplicationCollaboration" id="5e312355" name="CRM - E-mail integratie"/>
   </folder>
   <folder name="Technology" id="c016c1c3" type="technology">
     <element xsi:type="archimate:Node" id="510973d5" name="In een la of in een kast"/>
@@ -945,6 +950,12 @@ Plan, organisatie, bekostiging, publicatie, uitvoering, ...</documentation>
     <element xsi:type="archimate:AggregationRelationship" id="6514b272" source="ce4fe732" target="1dda85fc"/>
     <element xsi:type="archimate:AggregationRelationship" id="56b68a02" source="4f00a930" target="52a829d9"/>
     <element xsi:type="archimate:AggregationRelationship" id="5a53c990" source="7d1d387c" target="2e1a0ada"/>
+    <element xsi:type="archimate:RealisationRelationship" id="bb94aeb0" source="0cefc7c5" target="725db390"/>
+    <element xsi:type="archimate:UsedByRelationship" id="8d5d2fec" source="725db390" target="c23f8e6c"/>
+    <element xsi:type="archimate:RealisationRelationship" id="ef76e05c" source="2a501e36" target="c53f5ab0"/>
+    <element xsi:type="archimate:UsedByRelationship" id="b45d67cd" source="c53f5ab0" target="c23f8e6c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="b752ff0b" source="5e312355" target="c23f8e6c"/>
+    <element xsi:type="archimate:AssociationRelationship" id="759dfc41" source="5e312355" target="c34864e8"/>
   </folder>
   <folder name="Views" id="1e8b7158" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="3c30a180" name="Gemeentelijke organisatie">
@@ -2395,7 +2406,7 @@ Versie 20170710</content>
           <bendpoint startX="624" startY="-15" endY="-99"/>
         </sourceConnection>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="1dc6558d" textAlignment="2" targetConnections="d37b3f47" archimateElement="c23f8e6c">
+      <child xsi:type="archimate:DiagramObject" id="1dc6558d" textAlignment="2" targetConnections="d37b3f47 0e6ec834 65935775 10c3f237" archimateElement="c23f8e6c">
         <bounds x="432" y="360" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="090c8f08" source="1dc6558d" target="f13dab68" relationship="c7342b9e"/>
         <sourceConnection xsi:type="archimate:Connection" id="a02851d4" source="1dc6558d" target="0e73f5d4" relationship="1a852f98">
@@ -2425,11 +2436,13 @@ Versie 20170710</content>
         <sourceConnection xsi:type="archimate:Connection" id="c1007a2c" source="b77d26a7" target="0daa1805" relationship="4be278c0"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="abf21ac4" textAlignment="2" targetConnections="71a265c2" archimateElement="83722c5a">
-        <bounds x="204" y="360" width="120" height="55"/>
-        <sourceConnection xsi:type="archimate:Connection" id="d37b3f47" source="abf21ac4" target="1dc6558d" relationship="1004ecd9"/>
+        <bounds x="204" y="432" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="d37b3f47" source="abf21ac4" target="1dc6558d" relationship="1004ecd9">
+          <bendpoint startX="204" startY="-3" endX="-24" endY="69"/>
+        </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="762ae184" textAlignment="2" archimateElement="709166f8">
-        <bounds x="48" y="360" width="120" height="55"/>
+        <bounds x="48" y="432" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="71a265c2" source="762ae184" target="abf21ac4" relationship="a0e4a6a1"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="4be19ffc" textAlignment="2" targetConnections="f0425ba9" archimateElement="e9d995b9">
@@ -2443,7 +2456,7 @@ Domein Sport, , Relatiebeheer&#xD;
 Verantwoordelijkheden + Informatievoorziening&#xD;
 Doelsituatie&#xD;
 Auteur DT&#xD;
-Versie 20170828</content>
+Versie 20170830</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="c98d08a6" textAlignment="2" targetConnections="5c6b95cc" archimateElement="adb616d6">
         <bounds x="358" y="240" width="120" height="55"/>
@@ -2463,6 +2476,32 @@ Versie 20170828</content>
       <child xsi:type="archimate:DiagramObject" id="dad1b64b" textAlignment="2" targetConnections="1a26fe2c" archimateElement="4e41192c">
         <bounds x="828" y="240" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="b6ad4904" source="dad1b64b" target="598d930a" relationship="59d6825e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d04b34c9" textAlignment="2" archimateElement="0cefc7c5">
+        <bounds x="48" y="360" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="91c868b1" source="d04b34c9" target="5eef9cbe" relationship="bb94aeb0"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5eef9cbe" textAlignment="2" targetConnections="91c868b1" archimateElement="725db390">
+        <bounds x="204" y="360" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="0e6ec834" source="5eef9cbe" target="1dc6558d" relationship="8d5d2fec"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="818f1308" textAlignment="2" archimateElement="2a501e36">
+        <bounds x="828" y="432" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b7c5fd06" source="818f1308" target="3fd841c8" relationship="ef76e05c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="3fd841c8" textAlignment="2" targetConnections="b7c5fd06" archimateElement="c53f5ab0">
+        <bounds x="672" y="432" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="65935775" source="3fd841c8" target="1dc6558d" relationship="b45d67cd">
+          <bendpoint startX="-204" startY="-3" endX="36" endY="69"/>
+        </sourceConnection>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f89d7349" textAlignment="2" archimateElement="5e312355">
+        <bounds x="672" y="360" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="10c3f237" source="f89d7349" target="1dc6558d" relationship="b752ff0b"/>
+        <sourceConnection xsi:type="archimate:Connection" id="db3d1988" source="f89d7349" target="30ec091c" relationship="759dfc41"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="30ec091c" textAlignment="2" targetConnections="db3d1988" archimateElement="c34864e8">
+        <bounds x="828" y="360" width="120" height="55"/>
       </child>
     </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="fe40fce8" name="Relatiemanagement oude/huidige situatie">
