@@ -617,7 +617,7 @@ Volgens https://www.lisa-is.nl/?option=3: &quot;LISA biedt een uitgebreide leden
       <element xsi:type="archimate:ApplicationComponent" id="2a501e36" name="Document management system"/>
       <element xsi:type="archimate:ApplicationComponent" id="5c8e138a" name="Eigen taakapplicatie"/>
       <element xsi:type="archimate:ApplicationComponent" id="709166f8" name="Datapunt"/>
-      <element xsi:type="archimate:ApplicationComponent" id="0cefc7c5" name="Active Directory"/>
+      <element xsi:type="archimate:ApplicationComponent" id="0cefc7c5" name="Toegangs-makelaar"/>
       <element xsi:type="archimate:ApplicationComponent" id="c34864e8" name="Exchange"/>
     </folder>
     <folder name="Koppelvlakken" id="c5312030">
@@ -2452,11 +2452,12 @@ Versie 20170710</content>
       <child xsi:type="archimate:Note" id="47618ebd" textAlignment="1">
         <bounds x="48" width="144" height="139"/>
         <content>Gemeente Amsterdam&#xD;
-Domein Sport, , Relatiebeheer&#xD;
+Domein Sport&#xD;
+Relatiebeheer&#xD;
 Verantwoordelijkheden + Informatievoorziening&#xD;
 Doelsituatie&#xD;
 Auteur DT&#xD;
-Versie 20170830</content>
+Versie 20170901</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="c98d08a6" textAlignment="2" targetConnections="5c6b95cc" archimateElement="adb616d6">
         <bounds x="358" y="240" width="120" height="55"/>
