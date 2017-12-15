@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verhuur systeem"
+    id="83e31c95"
+    documentation="Voor Amsterdammers bereikbaar via https://asp3.lvp.nl/amisweb/amsterdam/amis/amis.php.&#xD;&#xA;Voor ambtenaren is er een toegang via een ADW applicatie.&#xD;&#xA;De backend is dezelfde.&#xD;&#xA;Voor sportartikelen is er een aparte instantie namelijk de Sport-O-Theek."/>
