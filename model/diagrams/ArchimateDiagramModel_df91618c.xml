@@ -519,7 +519,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="f4afdd1d"
-      targetConnections="875beaae f6d6c50a">
+      targetConnections="875beaae 4b5de632-7870-45e4-975d-48be647d895f">
     <bounds
         x="780"
         y="216"
@@ -741,12 +741,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="f6d6c50a"
+        id="4b5de632-7870-45e4-975d-48be647d895f"
         source="50d1120e"
         target="f4afdd1d">
       <archimateRelationship
-          xsi:type="archimate:AssignmentRelationship"
-          href="AssignmentRelationship_de05fa3e.xml#de05fa3e"/>
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_056c7343-8216-422b-b82c-5b62ff3571ce.xml#056c7343-8216-422b-b82c-5b62ff3571ce"/>
     </sourceConnections>
     <bounds
         x="648"
